@@ -10,7 +10,7 @@
       "name": "dev",
       "displayName": "Dev with vcpkg",
       "description": "Development build using vcpkg toolchain",
-      "generator": "Ninja",
+      "generator": "Unix Makefiles",
       "binaryDir": "${sourceDir}/build/${presetName}",
       "cacheVariables": {
         "CMAKE_TOOLCHAIN_FILE": "${env:VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
